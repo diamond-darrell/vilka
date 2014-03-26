@@ -63,9 +63,12 @@ figcaption {
     font-size: 1.5em;
 }
 
+.content img {
+    margin: 25px auto;
+}
+
 figure {
-    float: left;
-    margin: 25px 0;
+    margin: 25px auto;
 }
 
 .no-margin-left {
@@ -73,10 +76,15 @@ figure {
 }
 
 .content {
-    width: 50% !important;
-    max-width: 800px;
+    /*width: 50% !important;*/
+    /*max-width: 800px;*/
+    width: 60%;
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+.cntr {
+    text-align: center;
 }
 
 .contact img {
