@@ -19,6 +19,13 @@ img {
     max-width: 300px;
 }
 
+img.step {
+    max-width: 100%;
+}
+
+.row.steps {
+    margin-top: 50px;
+}
 footer {
     width: 100%;
     height: 30px;
@@ -38,10 +45,15 @@ a:hover {
     width: 150px;
 }
 
-.projects {
+.projects, .about-project {
     width: 100%;
     background-color: #F2F2F2;
 }
+
+.about-project {
+    padding: 50px 0 50px 0;
+}
+
 
 .align-center-left {
     position: relative;
@@ -112,4 +124,51 @@ figure {
     /*transform: scaleX(1) scaleY(1) scaleZ(1);*/
     /*-webkit-transform-origin: 50% 50% 0;*/
     /*transform-origin: 50% 50% 0;*/
+}
+
+p.usual {
+    font-size: 1em;
+}
+
+.tip {
+    float: right;
+    min-height: 30px;
+    max-width: 300px;
+    background: #F2F2F2;
+    margin: 15px;
+    padding: 15px;
+}
+
+.tip .tip-arrow-left {
+    position: relative;
+    border-right: 20px solid #F2F2F2;
+    border-top: 15px solid transparent;
+}
+
+.tip .tip-arrow-down {
+    position: relative;
+    border-left: 15px solid #F2F2F2;
+    border-bottom: 20px solid transparent;
+}
+
+.tip-special-1 {
+    margin-top: 250px;
+}
+
+.tip-special-2 {
+    margin-top: 500px;
+}
+
+@media (max-width: 996px) {
+    .tip-special-1 {
+        margin-top: 100px;
+    }
+
+    .tip-special-2 {
+        margin-top: 50px;
+    }
+}
+
+.row {
+    margin-right: 0;
 }
