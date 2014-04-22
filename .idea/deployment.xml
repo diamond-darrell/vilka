@@ -2,10 +2,24 @@
 <project version="4">
   <component name="PublishConfigData" serverName="vilka-demo">
     <serverData>
+      <paths name="mb-prod">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="vilka-demo">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="vilka-prod">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/www/vilka.co.ua" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
